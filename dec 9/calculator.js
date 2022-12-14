@@ -26,9 +26,9 @@ else if (operator === `/`) {
     result = num1 / num2;
 }
 else {
-    alert('Oppps!!  Operator is not correct please restart!')
+    alert('Oppps!!  Operator is not correct please restart!');
 }
 }
 
 
-document.write(num1 + operator + num2 + '=' + result);  
+document.write(num1 + operator + num2 + '=' + result); 
