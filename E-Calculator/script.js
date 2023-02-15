@@ -1,4 +1,4 @@
-const calculator = {
+const calculator = { //This is a data array
     displayValue: '0',
     firstOperand: null,
     waitingForSecondOperand: false,
@@ -116,6 +116,5 @@ updateDisplay = () => {
   
     inputDigit(target.value);  // this is for inputDigit function
     updateDisplay();
-
 
   });
